@@ -1,4 +1,3 @@
-
 import { useState, useRef, useEffect } from "react";
 import { Camera, Users, CheckCircle, XCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -43,7 +42,7 @@ export const AttendanceSystem = () => {
     
     // Simulate face recognition when faces are detected
     if (faceCount > 0 && isActive) {
-      const mockUsers = ["Anudeep", "Sreeyas", "Akhil", "Vaishnavi"];
+      const mockUsers = ["Asrar", "Mahesh", "unknown"];
       const randomUser = mockUsers[Math.floor(Math.random() * mockUsers.length)];
       const confidence = Math.floor(Math.random() * 30) + 70; // 70-99
       
